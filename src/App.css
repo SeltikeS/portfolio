@@ -167,7 +167,9 @@ img {
 /* Breakpoints */
 /* Large devices */
 @media screen and (max-width: 992px) {
-
+  .container {
+    margin-inline: var(--mb-1-5);
+  }
 }
 
 /* Medium devices */
@@ -181,5 +183,7 @@ img {
 
 /* Small devices */
 @media screen and (max-width: 350px) {
-
+  .container {
+    margin-inline: var(--mb-1);
+  }
 }
